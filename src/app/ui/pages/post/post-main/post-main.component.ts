@@ -21,9 +21,4 @@ export class PostMainComponent implements OnInit {
       this.posts = postResponse;
     })).subscribe();
   }
-
-  onClick(postId: number): void {
-    console.log('onClicked()');
-    console.log('postId: ', postId);
-  }
 }

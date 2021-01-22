@@ -12,10 +12,14 @@ import { MatMenuModule } from '@angular/material/menu';
 import { JsonplaceholderService } from '../../../rest';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { PostSearchComponent } from './post-search/post-search.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
-  declarations: [PostComponent, PostMainComponent, PostInfoComponent],
+  declarations: [PostComponent, PostMainComponent, PostInfoComponent, PostSearchComponent],
   imports: [
     CommonModule,
     PostRoutingModule,
@@ -25,7 +29,10 @@ import { MatButtonModule } from '@angular/material/button';
     MatIconModule,
     MatMenuModule,
     MatToolbarModule,
-    MatButtonModule
+    MatInputModule,
+    MatFormFieldModule,
+    MatButtonModule,
+    ReactiveFormsModule
   ],
   providers: [
     JsonplaceholderService

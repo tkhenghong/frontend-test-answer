@@ -32,14 +32,10 @@ export class PostInfoComponent implements OnInit {
   ngOnInit(): void {
     // You don't have to manage this.route.paramMap's Subscription because Angular handled it in lifecycle.
     this.route.paramMap.subscribe((paramMap) => {
-      console.log('paramMap: ', paramMap);
       if (!paramMap.has('postId')) {
-        console.log('if (!paramMap.has(\'postId\')');
-        // this.navController.navigateBack("/places/offers");
         this.router.navigateByUrl('/posts');
         return;
       } else {
-        console.log('if (paramMap.has(\'postId\')');
         const postId = paramMap.get('postId');
 
         if (postId) {

@@ -1,6 +1,10 @@
 <div class="grid-container">
   <mat-toolbar color="primary">
     <span>Posts</span>
+    <span class="toolbar-spacer"></span>
+    <button mat-icon-button aria-label="Search" [routerLink]="['/posts', 'search']">
+      <mat-icon class="search-icon">search</mat-icon>
+    </button>
   </mat-toolbar>
   <mat-card *ngFor="let post of posts" [routerLink]="['/posts', 'info', post.id]">
     <p>{{post.title}}</p>
