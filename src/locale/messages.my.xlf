@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8392676192870774823" datatype="html">
+        <source>Posts</source>
+        <target>Pos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description"> Description of the Posts</note>
+        <note priority="1" from="meaning">Meaning of the Posts </note>
+      </trans-unit>
+      <trans-unit id="5206857922697139278" datatype="html">
+        <source>I don&apos;t output any element</source>
+        <source>Saya tidak mempunyai elemen lain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4863371103643861248" datatype="html">
+        <source>1</source>
+        <target>Satu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6441168497334529189" datatype="html">
+        <source>2</source>
+        <target>Dua</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5553013051982389716" datatype="html">
+        <source>3</source>
+        <target>Tiga</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6300003832284833975" datatype="html">
+        <source>4</source>
+        <target>Empat</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5170424074936382089" datatype="html">
+        <source>5</source>
+        <target>Lima</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6338182211544106163" datatype="html">
+        <source>6</source>
+        <target>Enam</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1499934221434374468" datatype="html">
+        <source>7</source>
+        <target>Tujuh</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1084741602881469169" datatype="html">
+        <source>8</source>
+        <target>Lapan</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2890473785242626159" datatype="html">
+        <source>9</source>
+        <target>Sembilan</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3194836961668992694" datatype="html">
+        <source>10</source>
+        <target>Sepuluh</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="392942015236586892" datatype="html">
+        <source>Angular logo</source>
+        <target>Logo Angular</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4606963464835766483" datatype="html">
+        <source>Updated <x id="ICU" equiv-text="{minutes, plural, =0 {just now} =1 {one minute ago} other {{{minutes}} minutes ago}}"/></source>
+        <target>Selama <x id="ICU" equiv-text="{minutes, plural, =0 {just now} =1 {one minute ago} other {{{minutes}} minutes ago}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2002272803511843863" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION"/> minutes ago}}</source>
+        <target>{VAR_PLURAL, plural, =0 {sekarang} =1 {satu minit lepas} other {<x id="INTERPOLATION"/> minit lepas}}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3560311772637911677" datatype="html">
+        <source>The author is <x id="ICU" equiv-text="{gender, select, male {male} female {female} other {other}}"/></source>
+        <target>Pengarangnya adalah <x id="ICU" equiv-text="{gender, select, male {male} female {female} other {other}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7670372064920373295" datatype="html">
+        <source>{VAR_SELECT, select, male {male} female {female} other {other}}</source>
+        <target>{VAR_SELECT, select, male {lelaki} female {perempuan} other {lain}}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5731834990691080208" datatype="html">
+        <source>{VAR_SELECT, select, 0 {just now} 1 {one minute ago} other {<x id="INTERPOLATION"/> minutes ago}}</source>
+        <target>{VAR_SELECT, select, 0 {sekarang} 1 {satu minit lepas} other {<x id="INTERPOLATION"/> minit lepas}}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7084163895455121261" datatype="html">
+        <source>Updated: <x id="ICU" equiv-text="{minutes, plural,
+      =0 {just now}
+      =1 {one minute ago}
+      other {{{minutes}} minutes ago by {gender, select, male {male} female {female} other {other}}}}
+  "/> </source>
+        <target>Dikemas kini: <x id="ICU" equiv-text="{minutes, plural,
+      =0 {just now}
+      =1 {one minute ago}
+      other {{{minutes}} minutes ago by {gender, select, male {male} female {female} other {other}}}}
+  "/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">68,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2508975984005233379" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION"/> minutes ago by {VAR_SELECT, select, male {male} female {female} other {other}}}}</source>
+        <target>{VAR_PLURAL, plural, =0 {sekarang} =1 {satu minit lepas} other {<x id="INTERPOLATION"/> minit lepas daripada {VAR_SELECT, select, male {lelaki} female {perempuan} other {lain}}}}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ui/pages/post/post-main/post-main.component.html</context>
+          <context context-type="linenumber">68,71</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

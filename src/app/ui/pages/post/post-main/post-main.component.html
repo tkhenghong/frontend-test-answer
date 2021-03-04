@@ -1,12 +1,90 @@
 <div class="grid-container">
   <mat-toolbar color="primary">
-    <span>Posts</span>
+    <span i18n="Meaning of the Posts | Description of the Posts">Posts</span>
     <span class="toolbar-spacer"></span>
     <button mat-icon-button aria-label="Search" [routerLink]="['/posts', 'search']">
       <mat-icon class="search-icon">search</mat-icon>
     </button>
   </mat-toolbar>
-  <mat-card *ngFor="let post of posts" [routerLink]="['/posts', 'info', post.id]">
-    <p>{{post.title}}</p>
+  <!--This element will not make Angular produce translation code in xlf files-->
+  <!--As long as you wrap your text in ng-container HTML tag.-->
+  <mat-card>
+    <ng-container i18n>I don't output any element</ng-container>
   </mat-card>
+  <mat-card>
+    <p i18n>1</p>
+  </mat-card>
+  <mat-card>
+    <p i18n>2</p>
+  </mat-card>
+  <mat-card>
+    <p i18n>3</p>
+  </mat-card>
+  <mat-card>
+    <p i18n>4</p>
+  </mat-card>
+  <mat-card>
+    <p i18n>5</p>
+  </mat-card>
+  <mat-card>
+    <p i18n>6</p>
+  </mat-card>
+  <mat-card>
+    <p i18n>7</p>
+  </mat-card>
+  <mat-card>
+    <p i18n>8</p>
+  </mat-card>
+  <mat-card>
+    <p i18n>9</p>
+  </mat-card>
+  <mat-card>
+    <p i18n>10</p>
+  </mat-card>
+  <mat-card>
+    <p>
+      <ng-container i18n>I don't output any element</ng-container>
+    </p>
+  </mat-card>
+  <!--Add translation towards the attribute in an HTML tag with specifying something like this: i18n-****** -->
+  <!--For example below, if you have wrote i18n-title into the HTML element, the attribute's value which has the name of title(title="Angular logo") will be translated.-->
+  <mat-card>
+    <img i18n-title title="Angular logo" src="favicon.ico" alt="Alt Angular logo">
+  </mat-card>
+
+  <!--Use plural keyword as shown below(recognized by Angular compiler) will show different values when the value meets the correct condition-->
+  <!--Just like switch and cases and default, but in HTML.-->
+  <mat-card>
+    <span i18n>Updated {minutes, plural, =0 {just now} =1 {one minute ago} other {{{minutes}} minutes ago}}</span>
+  </mat-card>
+  <!--Use select keyword will also perform similar thing-->
+  <mat-card>
+    <span i18n>The author is {gender, select, male {male} female {female} other {other}}</span>
+  </mat-card>
+
+  <!--Do the same thing instead of plural by using select keyword-->
+  <mat-card>
+    <span i18n>Updated {minutes, select, 0 {just now} 1 {one minute ago} other {{{minutes}} minutes ago}}</span>
+  </mat-card>
+
+  <!--When use both together you can do something like below-->
+  <mat-card>
+    <span i18n>Updated: {minutes, plural,
+      =0 {just now}
+      =1 {one minute ago}
+      other {{{minutes}} minutes ago by {gender, select, male {male} female {female} other {other}}}}
+  </span>
+  </mat-card>
+
+  <!--
+  Reference: http://userguide.icu-project.org/formatparse/messages
+  Use a "plural" argument to select sub-messages based on a numeric value, together with the plural rules for the specified language.
+  Use a "select" argument to select sub-messages via a fixed set of keywords.
+  -->
+
+
+
+  <!--  <mat-card *ngFor="let post of posts" [routerLink]="['/posts', 'info', post.id]">-->
+  <!--    <p>{{post.title}}</p>-->
+  <!--  </mat-card>-->
 </div>

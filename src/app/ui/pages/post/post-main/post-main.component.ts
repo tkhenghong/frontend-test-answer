@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { JsonplaceholderService } from '../../../../rest';
-import { Post } from '../../../../models';
-import { tap } from 'rxjs/operators';
+import {Component, OnInit} from '@angular/core';
+import {JsonplaceholderService} from '../../../../rest';
+import {Post} from '../../../../models';
+import {tap} from 'rxjs/operators';
 
 @Component({
   selector: 'app-post-main',
@@ -12,6 +12,8 @@ export class PostMainComponent implements OnInit {
   typesOfShoes: string[] = ['Boots', 'Clogs', 'Loafers', 'Moccasins', 'Sneakers'];
 
   posts: Post[] = [];
+  minutes = 0; // 1
+  gender = 'male';
 
   constructor(private jsonplaceholderService: JsonplaceholderService) {
   }
@@ -20,5 +22,9 @@ export class PostMainComponent implements OnInit {
     this.jsonplaceholderService.getPost().pipe(tap(postResponse => {
       this.posts = postResponse;
     })).subscribe();
+  }
+
+  something(): number {
+    return 1;
   }
 }
