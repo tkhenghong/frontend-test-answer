@@ -1,17 +1,28 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { Router } from '@angular/router';
+import { routes } from './app-routing.module';
+import { Location } from "@angular/common";
 
 describe('AppComponent', () => {
+  let location: Location;
+  let router: Router;
+
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
-        RouterTestingModule
+        RouterTestingModule.withRoutes(routes)
       ],
       declarations: [
         AppComponent
       ],
     }).compileComponents();
+
+    router = TestBed.get(Router);
+    location = TestBed.get(Location);
+
+    router.initialNavigation();
   });
 
   it('should create the app', () => {

@@ -1,6 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PostSearchComponent } from './post-search.component';
+import { JsonplaceholderService } from '../../../../rest';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { CoreService } from '../../../../services';
 
 describe('PostSearchComponent', () => {
   let component: PostSearchComponent;
@@ -8,9 +11,10 @@ describe('PostSearchComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PostSearchComponent ]
-    })
-    .compileComponents();
+      imports: [HttpClientTestingModule],
+      declarations: [PostSearchComponent],
+      providers: [JsonplaceholderService, CoreService],
+    }).compileComponents();
   });
 
   beforeEach(() => {

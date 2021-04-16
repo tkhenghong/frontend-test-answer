@@ -8,6 +8,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 
 import { PostMainComponent } from './post-main.component';
+import { JsonplaceholderService } from '../../../../rest';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { CoreService } from '../../../../services';
 
 describe('PostMainComponent', () => {
   let component: PostMainComponent;
@@ -24,7 +27,9 @@ describe('PostMainComponent', () => {
         MatGridListModule,
         MatIconModule,
         MatMenuModule,
-      ]
+        HttpClientTestingModule,
+      ],
+      providers: [JsonplaceholderService, CoreService],
     }).compileComponents();
   }));
 

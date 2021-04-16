@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [
+export const routes: Routes = [
   {
     path: 'posts',
     loadChildren: () => import('src/app/ui/pages/post/post.module').then(m => m.PostModule)
