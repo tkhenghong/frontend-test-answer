@@ -3,7 +3,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 import { Router } from '@angular/router';
 import { routes } from './app-routing.module';
-import { Location } from "@angular/common";
+import { Location } from '@angular/common';
 
 describe('AppComponent', () => {
   let location: Location;
